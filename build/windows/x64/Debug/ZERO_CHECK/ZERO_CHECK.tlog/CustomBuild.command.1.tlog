@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\VSCODE\EAS_MOBPROG\BUILD\WINDOWS\CMAKEFILES\E6EE6B15BEB72D2B047753FDC9035CD2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Documents/VsCode/eas_mobprog/windows -BD:/Documents/VsCode/eas_mobprog/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Documents/VsCode/eas_mobprog/build/windows/eas_mobprog.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

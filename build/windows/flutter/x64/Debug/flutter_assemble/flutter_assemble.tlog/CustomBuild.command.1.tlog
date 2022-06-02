@@ -1,0 +1,28 @@
+^D:\DOCUMENTS\VSCODE\EAS_MOBPROG\BUILD\WINDOWS\CMAKEFILES\86321A2143E7438AEB5B5581864C05A6\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\rifqi\flutter PROJECT_DIR=D:\Documents\VsCode\eas_mobprog FLUTTER_ROOT=C:\Users\rifqi\flutter FLUTTER_EPHEMERAL_DIR=D:\Documents\VsCode\eas_mobprog\windows\flutter\ephemeral PROJECT_DIR=D:\Documents\VsCode\eas_mobprog FLUTTER_TARGET=D:\Documents\VsCode\eas_mobprog\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Documents\VsCode\eas_mobprog\.dart_tool\package_config.json C:/Users/rifqi/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DOCUMENTS\VSCODE\EAS_MOBPROG\BUILD\WINDOWS\CMAKEFILES\B4E4C3BE2236B3BAEB12A2466B537AB9\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DOCUMENTS\VSCODE\EAS_MOBPROG\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Documents/VsCode/eas_mobprog/windows -BD:/Documents/VsCode/eas_mobprog/build/windows --check-stamp-file D:/Documents/VsCode/eas_mobprog/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
